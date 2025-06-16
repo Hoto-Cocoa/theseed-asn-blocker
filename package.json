@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "scripts": {
+    "asn": "dotenvx run tsx src/asn.ts",
+    "vpn": "dotenvx run tsx src/vpn.ts",
+    "vpngate": "dotenvx run tsx src/vpngate.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "got": "^14.4.7"
+  },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.44.2",
+    "@eslint/js": "^9.29.0",
+    "@stylistic/eslint-plugin": "^3.0.0",
+    "@types/node": "^17.0.24",
+    "eslint": "^8.57.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.34.0"
+  }
+}
